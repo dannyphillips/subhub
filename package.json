@@ -1,6 +1,6 @@
 {
   "name": "subhub",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": true,
   "dependencies": {
     "react": "^16.1.1",
@@ -11,6 +11,23 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannyphillips/subhub.git"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^4.3.0",
+    "@commitlint/config-angular": "^4.3.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^8.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
