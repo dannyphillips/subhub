@@ -1,10 +1,15 @@
-import React, { Component } from 'react';
-import logo from './subhub-logo.svg';
-import { BrowserRouter, Route, NavLink } from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
-import Topics from './pages/Topics'
-import './App.css';
+// Package Imports
+import React, { Component } from "react";
+import { BrowserRouter, Route, NavLink } from "react-router-dom";
+
+// Pages
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Topics from "./pages/Topics";
+
+// Assets
+import logo from "./subhub-logo.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -13,9 +18,17 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <header className="App-header">
-              <div><NavLink to="/"><img src={logo} className="App-logo" alt="logo" /></NavLink></div>
-              <div><NavLink to="/about">About</NavLink></div>
-              <div><NavLink to="/topics">Topics</NavLink></div>
+              <div>
+                <NavLink to="/">
+                  <img src={logo} className="App-logo" alt="logo" />
+                </NavLink>
+              </div>
+              <div>
+                <NavLink to="/about">About</NavLink>
+              </div>
+              <div>
+                <NavLink to="/topics">Topics</NavLink>
+              </div>
             </header>
 
             <Route exact path="/" component={Home} />
