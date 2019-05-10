@@ -1,6 +1,7 @@
 // Package Imports
 import React, { Component } from "react";
 import { BrowserRouter, Route, NavLink } from "react-router-dom";
+import { Radio } from "semantic-ui-react";
 
 // Pages
 import Home from "./pages/Home";
@@ -18,17 +19,11 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <header className="App-header">
-              <div>
-                <NavLink to="/">
-                  <img src={logo} className="App-logo" alt="logo" />
-                </NavLink>
-              </div>
-              <div>
-                <NavLink to="/about">About</NavLink>
-              </div>
-              <div>
-                <NavLink to="/topics">Topics</NavLink>
-              </div>
+              <NavLink to="/">
+                <img src={logo} className="App-logo" alt="logo" />
+              </NavLink>
+              <NavLink to="/about">About</NavLink>
+              <NavLink to="/topics">Topics</NavLink>
             </header>
 
             <Route exact path="/" component={Home} />
@@ -36,6 +31,7 @@ class App extends Component {
             <Route path="/topics" component={Topics} />
           </div>
         </BrowserRouter>
+        <Radio toggle />
       </div>
     );
   }
