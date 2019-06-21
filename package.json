@@ -15,26 +15,25 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "precommit": "lint-staged",
-    "semantic-release":
-      "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
-    "@commitlint/config-angular": "^8.0.0",
-    "commitizen": "^3.1.1",
-    "cz-conventional-changelog": "^2.1.0",
-    "husky": "^2.4.1",
-    "lint-staged": "^8.2.1",
-    "prettier": "^1.18.2",
-    "semantic-release": "^8.2.0"
+    "@commitlint/cli": "8.0.0",
+    "@commitlint/config-angular": "8.0.0",
+    "commitizen": "3.1.1",
+    "cz-conventional-changelog": "2.1.0",
+    "husky": "2.4.1",
+    "lint-staged": "8.2.1",
+    "prettier": "1.18.2",
+    "semantic-release": "8.2.0"
   },
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-router-dom": "5.0.1",
     "react-scripts": "1.0.17",
-    "semantic-ui-react": "^0.87.2"
+    "semantic-ui-react": "0.87.2"
   }
 }
