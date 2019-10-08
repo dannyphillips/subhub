@@ -24,15 +24,15 @@
     resolve-from "5.0.0"
     resolve-global "1.0.0"
 
-"@commitlint/config-angular-type-enum@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-angular-type-enum/-/config-angular-type-enum-8.0.0.tgz#6a8144592f7ef6865a652512a79a340e6ffe9f0c"
+"@commitlint/config-angular-type-enum@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-angular-type-enum/-/config-angular-type-enum-8.2.0.tgz#ab7b48501deb0ceab2ec3b356a8e1406448eb00d"
 
-"@commitlint/config-angular@8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-angular/-/config-angular-8.0.0.tgz#adf9f99eac7b55a09de4dbe5fa7459ff17cef305"
+"@commitlint/config-angular@8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-angular/-/config-angular-8.2.0.tgz#826cf9d665f5742571988eb388b1c1a1a542c96b"
   dependencies:
-    "@commitlint/config-angular-type-enum" "^8.0.0"
+    "@commitlint/config-angular-type-enum" "^8.2.0"
 
 "@commitlint/ensure@^8.0.0":
   version "8.0.0"
