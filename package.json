@@ -30,7 +30,7 @@
     "semantic-release": "15.13.24"
   },
   "dependencies": {
-    "react": "16.8.6",
+    "react": "16.10.2",
     "react-dom": "16.10.2",
     "react-router-dom": "5.1.2",
     "react-scripts": "1.0.17",
