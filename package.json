@@ -27,7 +27,7 @@
     "husky": "4.2.5",
     "lint-staged": "10.1.6",
     "prettier": "2.0.4",
-    "semantic-release": "17.0.6"
+    "semantic-release": "17.0.7"
   },
   "dependencies": {
     "react": "16.13.1",
