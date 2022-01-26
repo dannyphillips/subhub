@@ -11623,9 +11623,9 @@ semantic-release@17.4.7:
     signale "^1.2.1"
     yargs "^16.2.0"
 
-semantic-ui-react@2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/semantic-ui-react/-/semantic-ui-react-2.0.4.tgz#a66862964e0482d9b862a5f9cf5c8f3417cfb101"
+semantic-ui-react@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/semantic-ui-react/-/semantic-ui-react-2.1.1.tgz#88864ff3286ba03fc6e7e94096493b2405699413"
   dependencies:
     "@babel/runtime" "^7.10.5"
     "@fluentui/react-component-event-listener" "~0.51.6"
