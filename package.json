@@ -20,7 +20,7 @@
     "test": "react-scripts test --env=jsdom"
   },
   "devDependencies": {
-    "@commitlint/cli": "13.1.0",
+    "@commitlint/cli": "17.0.1",
     "@commitlint/config-angular": "13.1.0",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
