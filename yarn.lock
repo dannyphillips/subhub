@@ -1569,15 +1569,15 @@
     resolve-global "1.0.0"
     yargs "^17.0.0"
 
-"@commitlint/config-angular-type-enum@^13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-angular-type-enum/-/config-angular-type-enum-13.0.0.tgz#4ff9cafff3eae34ec2b8869bec8b761ad206f95a"
+"@commitlint/config-angular-type-enum@^18.4.0":
+  version "18.4.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-angular-type-enum/-/config-angular-type-enum-18.4.0.tgz#4c09c4166fd0458bf99e87007fc232641ced5290"
 
-"@commitlint/config-angular@13.1.0":
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-angular/-/config-angular-13.1.0.tgz#bd87f218d23ab9ea2eaeed088816610e8e4ace04"
+"@commitlint/config-angular@18.4.2":
+  version "18.4.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-angular/-/config-angular-18.4.2.tgz#53bc48e78c2c7763293c1a1e6d0e0424305b3b40"
   dependencies:
-    "@commitlint/config-angular-type-enum" "^13.0.0"
+    "@commitlint/config-angular-type-enum" "^18.4.0"
 
 "@commitlint/ensure@^13.1.0":
   version "13.1.0"
